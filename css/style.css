@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
 }
 
@@ -46,18 +46,21 @@ header.startup hr {
 
 header.startup h1 {
   font-size: 4rem;
-
+  font-weight: 100;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin-bottom: 5rem;
 }
 
 .btn {
   font-weight: 700;
   text-transform: uppercase;
   border-radius: 300px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: inherit;
 }
 
 .btn-xl {
-  padding: 1rem 2rem;
+  padding: 2rem 4rem;
   backface-visibility: hidden;
 }
 
@@ -70,4 +73,7 @@ header.startup h1 {
   border-color: #ee4b08;
   border-width: 5px;
   cursor: pointer;
+}
+.fa-id-badge{
+  margin-left: 5px;
 }
